@@ -1,4 +1,6 @@
-# Polygenic Risk Scores Uganda 2023 
+# This repo is under development 
+
+# Polygenic Risk Scores Uganda 2024 
 Base for the Polygenic Risk Scores course Repository
 
 ## Course overview
@@ -9,25 +11,27 @@ This short course will equip scientists based in Africa with tools and approache
 The course will begin with an overview of genome-wide association studies, an introduction to PRS analysis, advanced topics in PRS (e.g., pathway-based PRS, PRS Environment interactions, PRS to identify rare variants). This will be followed by the key topic of the ‘PRS Portability Problem’ and how to address it using PRS methods developed for application to diverse and admixed ancestry samples. Finally, attendees will devise, perform and present their own research project as part of a group on a topic relevant to the content of the course, with feedback from the workshop team. 
 
 
-[PRS Course website](https://coursesandconferences.wellcomeconnectingscience.org/event/polygenic-risk-score-analysis-africa-20230702/)
+[PRS Course website](https://coursesandconferences.wellcomeconnectingscience.org/event/polygenic-risk-score-analysis-africa-20240609/)
 
 ## Instructors
 - [Marion Amujal](https://h3africa.org/index.php/19th-meeting-attendees/marion-amujal-picture/), Makerere University, Uganda
-- [Shakuntala Baichoo](https://www.uom.ac.mu/foicdt/index.php/facultystaff/academic), University of Mauritius, Mauritius
 - [Palwende Boua](https://crun.bf/researchers/palwende-romuald-boua/), Institut de Recherche en Sciences de la Santé, Burkina Faso
 - [Tinashe Chikowore](https://africanscientists.africa/business-directory/chikowore/), University of the Witwatersrand, South Africa
 - [Itunuoluwa Isewon](https://scholar.google.com/citations?user=haW6Ux8AAAAJ&hl=en), Covenant University, Nigeria
 - [Conrad Iyegbe](https://labs.icahn.mssm.edu/oreillylab/), Icahn School of Medicine, USA
 - [Christopher Kintu](https://www.researchgate.net/scientific-contributions/Christopher-Kintu-2149755900),Makerere University, Uganda
 - [Carene Ndong Sima](https://www.linkedin.com/in/carene-anne-alene-ndong-sima),Stellenbosch University, South Africa 
-- Tsaone Tamuhla, University of Cape Town, South Africa
-- [Lesedi Williams](https://www.ub.bw/connect/staff/2053), University of Botswana
+- [Jones Gyamfi](404)
+- [Susan Kanjira](404)
+- [Michelle Kamp](404)
+
+
 
 ### Overview
 
 
 ### Detailed timetable
-[View Timetable here - "in dev" ](modules/PolygenicRiskScores2023Timetable-export21June.pdf)
+[View Timetable here - "in dev" ](404)
 
 
 
@@ -37,7 +41,9 @@ The course will begin with an overview of genome-wide association studies, an in
 [LMS Link](https://lms.wellcomeconnectingscience.org/)
 
 **DAILY FEEDBACK**        
-[Please provide anonymous feedback here](https://forms.gle/PNKS1y7SVYHJ6xC2A)
+<!--- [Please provide anonymous feedback here](https://forms.gle/PNKS1y7SVYHJ6xC2A) --->
+
+**NB - Sections being revised for 2024**
 
 **Day 1 - GWAS and Relevant Statistics**   
 [Day 1 Part A Online Manual](modules/Day1a.docx.md)     
@@ -62,11 +68,7 @@ The course will begin with an overview of genome-wide association studies, an in
 
 
 
-
-
 **Appendix**      
-
-
 Any reuse of the course materials, data or code is encouraged with due acknowledgement.
 
 ******
