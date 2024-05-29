@@ -31,7 +31,7 @@ The course will begin with an overview of genome-wide association studies, an in
 
 
 ### Detailed timetable
-[View Timetable here - "in dev" ](404)
+[View Timetable here - ](https://github.com/WCSCourses/PRS2024/blob/main/course_data/PRS2024_timetable_29-05.pdf)
 
 
 
