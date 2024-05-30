@@ -1,8 +1,11 @@
 # Integration of Polygenic Risk Scores
 
 ## Task – PRSmix calculation [3.5 hrs]
-Thursday’s practical will focus on getting you up and running with some of the leading software tools for performing PRS calculation across ancestries.  
-* Then we will allow you to adapt the scripts that we will provide you with, in order to complete the practical that we will set for you.      
-* You’ll be doing the practical in the groups that you were assigned to at the beginning of the week and at the end of the practical (on Friday) each group will give a presentation about your work and your findings      
-* For the project there will be a total of 5 populations to choose from, namely East Asian, European, South Asian, Amerindian, African (EAS, EUR, SAS, AMR and AFR). Each group will choose a combination of two populations, which have been simulated to have the same genetic architecture but with a different LD structure and allele frequencies.      
-* Using the methods you will learn during the day 4 practical (and potentially other skills learned throughout this week) you will evaluate the performance of at least one of the multi-ancestry methods you will learn about tomorrow and compare this against the performance of PRSice, (a tool which hasn’t been designed for multi-ancestry purposes).  
+ 
+You have just completed the Wellcome Connecting Science PRS course and are now acquainted with tools such as PRSCSx and BRIDGEPRS. You also got to hear a talk by Prof Nilanjan Chatterjee, who you later realized has been involved in developing three latest PRS software programs, PROSPER, MUSSEL, and CT-SLEB, that claim to improve PRS prediction in Africans. You are now getting overwhelmed by the sheer number of tools to test out and do not know which tool to use for your PRS project, which involves continental Africans. You decide to read more, and you then stumble across a novel approach called PRSmix, which integrates PRSs developed using diverse methods, forming an integrated PRS that has been noted to outperform previously reported PRS, as shown below. This seems as a much more pragmatic approach, and you are eager to apply it to your PRS projects.
+
+* Qn1. May you outline the steps that you will follow to apply the PRSmix approach to the trait you have been assigned? What metrics will you use to evaluate the predictivity of the PRS for the trait you have been assigned?
+* Qn2. Do you think the PRSmix approach will predict well in continental Africans? Discuss?
+* Qn3. You have been given 10 PRSs. May you write up code to integrate these using the PRSmix. What is the predictivity of the integrated PRS?
+![image](https://github.com/WCSCourses/PRS2024/assets/13121809/8fbaa89e-b7b0-40ca-912a-625dff5ec600)
+  
