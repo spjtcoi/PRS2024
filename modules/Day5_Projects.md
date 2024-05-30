@@ -9,6 +9,7 @@ You have just completed the Wellcome Connecting Science PRS course and are now a
 * Qn3. You have been given 10 PRSs. May you write up code to integrate these using the PRSmix. What is the predictivity of the integrated PRS?
  
 <img width="367" alt="image" src="https://github.com/WCSCourses/PRS2024/assets/13121809/fbb3afbd-3fa2-4c9f-ae68-61a468df7969">
+
 **Figure 1** Predictivity of various PRSs compared to PRSmix (Adopted Buu et al. 2024)
 
 * Based on the following traits: height, total cholesterol, and diabetes, you will be divided into three groups (make it 5 traits, 5 groups, Model Answer to TAs) (what will be evaluated e.g. 2 pages write up, presentation)
