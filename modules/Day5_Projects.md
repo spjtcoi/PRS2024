@@ -1,6 +1,6 @@
-# Multi-Ancestry Trait Prediction -  an extension of the work on Thursday
+# Integration of Polygenic Risk Scores
 
-## Task – PRS calculation in multiple populations [3.5 hrs]
+## Task – PRSmix calculation [3.5 hrs]
 Thursday’s practical will focus on getting you up and running with some of the leading software tools for performing PRS calculation across ancestries.  
 * Then we will allow you to adapt the scripts that we will provide you with, in order to complete the practical that we will set for you.      
 * You’ll be doing the practical in the groups that you were assigned to at the beginning of the week and at the end of the practical (on Friday) each group will give a presentation about your work and your findings      
