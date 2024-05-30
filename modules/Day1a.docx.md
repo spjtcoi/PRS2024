@@ -1,4 +1,4 @@
-# Polygenic Risk Score Analyses Workshop 2023
+# Polygenic Risk Score Analyses Workshop 2024
 
 
 # Day 1a: GWAS & relevant Statistics
