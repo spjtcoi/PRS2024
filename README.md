@@ -16,7 +16,7 @@ The course will begin with an overview of genome-wide association studies, an in
 ## Instructors
 - [Marion Amujal](https://h3africa.org/index.php/19th-meeting-attendees/marion-amujal-picture/), Makerere University, Uganda
 - [Palwende Boua](https://crun.bf/researchers/palwende-romuald-boua/), Institut de Recherche en Sciences de la Santé, Burkina Faso
-- [Tinashe Chikowore](https://africanscientists.africa/business-directory/chikowore/), University of the Witwatersrand, South Africa
+- [Tinashe Chikowore](https://connects.catalyst.harvard.edu/Profiles/display/Person/213790), Harvard University, USA
 - [Itunuoluwa Isewon](https://scholar.google.com/citations?user=haW6Ux8AAAAJ&hl=en), Covenant University, Nigeria
 - [Conrad Iyegbe](https://labs.icahn.mssm.edu/oreillylab/), Icahn School of Medicine, USA
 - [Christopher Kintu](https://www.researchgate.net/scientific-contributions/Christopher-Kintu-2149755900),Makerere University, Uganda
