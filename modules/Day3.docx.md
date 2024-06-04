@@ -34,8 +34,8 @@ In this practical, we will compute a PRS for systolic blood pressure (SBP) and a
 
 |**Phenotype**|**Provider**|**Description**|**Download Link**|
 |:---:|:---:|:---:|:---:|
-|Height|[GIANT Consortium](https://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium_data_files)|GWAS of height on 253,288 individuals| [Link](https://portals.broadinstitute.org/collaboration/giant/images/0/01/GIANT_HEIGHT_Wood_et_al_2014_publicrelease_HapMapCeuFreq.txt.gz)|
-|Coronary artery disease (CAD)|[CARDIoGRAMplusC4D Consortium](http://www.cardiogramplusc4d.org/)|GWAS on 60,801 CAD cases and 123,504 controls| [Link](http://www.cardiogramplusc4d.org/media/cardiogramplusc4d-consortium/data-downloads/cad.additive.Oct2015.pub.zip)|
+|Base dataset (EUR)|[GIANT Consortium](https://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium_data_files)|GWASsumary stats of SBP| [Link](https://portals.broadinstitute.org/collaboration/giant/images/0/01/GIANT_HEIGHT_Wood_et_al_2014_publicrelease_HapMapCeuFreq.txt.gz)|
+|Target dataset (EUR, AFR)|[CARDIoGRAMplusC4D Consortium](http://www.cardiogramplusc4d.org/)|EUR (n = 500), AFR (n = 650)| [Link](http://www.cardiogramplusc4d.org/media/cardiogramplusc4d-consortium/data-downloads/cad.additive.Oct2015.pub.zip)|
 
 ## Additional Resources
 
