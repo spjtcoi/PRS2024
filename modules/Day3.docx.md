@@ -5,18 +5,13 @@
 ## Table of Contents
 
   1. [Key Learning Outcomes](#key-learning-outcomes)
-  2. [Resources you will be using](#resources-you-will-be-using)
-  3. [Datasets](#data-sets) 
-  4. [Exercise 1 Estimating R<sup>2</sup> in case and control studies](#exercise-1-estimating-r2-in-case-and-control-studies)
+  2. [Base and target datasets](#Base-and-target-datasets)
+  3. [Downloading Datasets](#Downloading-Datasets) 
+  4. [Exercise 1 Estimating R<sup>2</sup> ](#exercise-1-estimating-r2)
   5. [Exercise 2 Overfitting caused by model optimisation](#exercise-2-Overfitting-caused-by-model-optimisation)
-     1. [Out of Sample Validation](#out-of-sample-validation)
-  7. [Exercise 3 Distribution of PRS](#exercise-3-distribution-of-prs)
-  8. [Gene Set Analysis](#gene-set-analysis)
-     1. [Molecular Signatures Database MSigDB](#molecular-signatures-Database-msigdb)
-     2. [General Transfer Format file](#general-transfer-format-file)
-     3. [Browser Extensible Data BED](#browser-extensible-data-bed)
-  9. [Gene Set Enrichment Analysis](#gene-set-enrichment-analysis)
-  10. [Exercise 4 Gene Set Based PRS Analysis](#exercise-4-gene-set-based-prs-analysis)
+
+
+      
       
 
 ## Key Learning Outcomes
