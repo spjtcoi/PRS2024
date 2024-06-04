@@ -23,7 +23,7 @@ The course will begin with an overview of genome-wide association studies, an in
 - [Carene Ndong Sima](https://www.linkedin.com/in/carene-anne-alene-ndong-sima),Stellenbosch University, South Africa 
 - [Jones Gyamfi](404)
 - [Susan Kanjira](404)
-- [Michelle Kamp](404)
+- [Michelle Kamp](404),King's College London, UK 
 
 
 
