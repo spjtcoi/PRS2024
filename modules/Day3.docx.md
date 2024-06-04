@@ -15,13 +15,12 @@
 
       
       
-
+## Day 3a practical
 ## Key Learning Outcomes
 After completing this practical, you should be able to:
   1. Know how to compute and test PRS inter-ancestry
   2. Know the effect of the portability problem on PRS prective ability
   3. Understand the effect of the PRS protability problem
-
      
 ## Base and target datasets 
 In this practical, we will compute a PRS for systolic blood pressure (SBP) and assess it performance across European and ancestry datasets to clearly illustrate the portability problem. The base dataset will be summary statistics from Europeans and target will be individual level genotyped data from Europeans (n = 500) and Africans (n = 650). Please be reminded that this is simulated data with no real-life biological meaning or implication. 
