@@ -26,9 +26,9 @@ After completing this practical, you should be able to:
 ## Base and target datasets 
 In this practical, we will compute a PRS for systolic blood pressure (SBP) and assess it performance across European and ancestry datasets to clearly illustrate the portability problem. The base dataset will be summary statistics from Europeans and target will be individual level genotyped data from Europeans (n = 500) and Africans (n = 650). Please be reminded that this is simulated data with no real-life biological meaning or implication. 
 
-|**Phenotype**|**Provider**|**Description**|**Download Link**|
+|**Phenotype**|**Source**|**Description**|**Download Link**|
 |:---:|:---:|:---:|:---:|
-|Base dataset (EUR)|[EUR_SBP](https://replace)|GWASsumary stats of SBP| [Link](https://change)|
+|Base dataset (EUR)|[Link](https://replace)|GWASsumary stats of SBP| [Link](https://change)|
 |Target dataset (EUR, AFR)|simulated |EUR (n = 500), AFR (n = 650)| [Link](http://change)|
 
 
