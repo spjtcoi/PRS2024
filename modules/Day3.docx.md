@@ -1,6 +1,6 @@
 # Advanced Polygenic Risk Score Analyses
 
-## Day 3 - Polygenic Risk Score Analyses Workshop 2023
+## Day 3 - Polygenic Risk Score Analyses Workshop 2024
 
 ## Table of Contents
 
@@ -21,12 +21,13 @@
 
 ## Key Learning Outcomes
 After completing this practical, you should be able to:
-  1. know how to adjust for ascertainment bias in case-control analysis
+  1. Know how to adjust for ascertainment bias in case-control analysis
   2. Know how over-fitting aﬀects PRS results and how to handle it 
-  3. understand distribution of PRS
-  4. understand diﬀerent file formats involved in gene-set analysis
-  5. understand diﬀerence between self-contained and competitive gene-set analyses
-  6. Calculate pathway based PRS
+  3. Understand xxxxhsdlgbl b
+  4. understand distribution of PRS
+  5. understand diﬀerent file formats involved in gene-set analysis
+  6. understand diﬀerence between self-contained and competitive gene-set analyses
+     
 
 ## Resources you will be using 
 To perform PRS analyses, summary statistics from Genome-Wide Association Studies (GWAS) are required. In this workshop, the following summary statistics are used:
