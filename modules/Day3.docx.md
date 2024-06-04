@@ -29,7 +29,7 @@ After completing this practical, you should be able to:
   6. understand diﬀerence between self-contained and competitive gene-set analyses
      
 
-## Resources you will be using 
+## Base and target datasets 
 In this practical, we will compute a PRS for systolic blood pressure (SBP) and assess it performance across European and ancestry datasets to clearly illustrate the portability problem. The base dataset will be summary statistics from Europeans and target will be individual level genotyped data from Europeans (n = 500) and Africans (n = 650). Please be reminded that this is simulated data with no real-life biological meaning or implication. 
 
 |**Phenotype**|**Provider**|**Description**|**Download Link**|
