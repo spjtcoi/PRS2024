@@ -21,7 +21,7 @@ The course will begin with an overview of genome-wide association studies, an in
 - [Conrad Iyegbe](https://labs.icahn.mssm.edu/oreillylab/), Icahn School of Medicine, USA
 - [Christopher Kintu](https://www.researchgate.net/scientific-contributions/Christopher-Kintu-2149755900),Makerere University, Uganda
 - [Carene Ndong Sima](https://www.linkedin.com/in/carene-anne-alene-ndong-sima),Stellenbosch University, South Africa 
-- [Jones Gyamfi](404)
+- [Jones Gyamfi](https://research.tees.ac.uk/en/persons/jones-gyamfi), Teesside University, Middlesbrough, UK
 - [Susan Kanjira](404)
 - [Michelle Kamp](404),King's College London, UK 
 
