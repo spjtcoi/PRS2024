@@ -5,25 +5,44 @@
 ## Table of Contents
 
   1. [Key Learning Outcomes](#key-learning-outcomes)
-  2. [Base and target datasets](#Base-and-target-datasets)
-  3. [Downloading Datasets](#Downloading-Datasets) 
-  4. [Exercise 1 Estimating R<sup>2</sup> ](#exercise-1-estimating-r2)
-  5. [Exercise 2 Overfitting caused by model optimisation](#exercise-2-Overfitting-caused-by-model-optimisation)
-  6. [Introduction to cross-ancestry PRS computation](#Cross-ancestry-PRS-computation)
-  7. [Cross-ancestry PRS analysis using PRS-CSx](#Cross-ancestry-PRS-computation)
+  2. [Method](#Method)
+  3. [Base and target datasets](#Base-and-target-datasets)
+  4. [Downloading Datasets](#Downloading-Datasets) 
+  5. [Exercise 1 Estimating R<sup>2</sup> ](#exercise-1-estimating-r2)
+  6. [Exercise 2 Overfitting caused by model optimisation](#exercise-2-Overfitting-caused-by-model-optimisation)
+  7. [Introduction to cross-ancestry PRS computation](#Cross-ancestry-PRS-computation)
+  8. [Cross-ancestry PRS analysis using PRS-CSx](#Cross-ancestry-PRS-computation)
 
-
-      
-      
+     
 ## Day 3a practical
 ## Key Learning Outcomes
 After completing this practical, you should be able to:
-  1. Compute and analyse ancestry-matched and unmatched PRS.
-  2. Understand and identify the impact of ancestry on the predictive utility of PRS. 
-  3. Understand the challenges and limitations of applying PRS in populations with diverse genetic backgrounds, focusing on the reduction in predictive utility due to the portability problem.
-     
+  1. Compute and analyse ancestry-matched and unmatched PRS using PRSise-2.
+  2. Understand and interpret the results from PRSise-2 derived scores. 
+  3. Understand and identify the impact of ancestry on the predictive utility of PRS.
+  4. Understand and identify the impact of sample size on the predictive utility of PRS.
+  5. Understand the challenges and limitations of applying PRS in populations with diverse genetic backgrounds.
+
+
+## Method 
+For this practical we will use PRSice-2. PRSice-2 is one of the dedicated PRS calculation and analysis programs that makes use of a sequence of PLINK functions.
+The tools utilises the standard clumping and thresholding (C+T) approach.
+
 ## Base and target datasets 
-In this practical, we will compute a PRS for systolic blood pressure (SBP) and assess it performance across European and African ancestry datasets to clearly illustrate the portability problem. The base dataset will be summary statistics from Europeans and target will be individual level genotyped data from Europeans (n = 500) and Africans (n = 650). Please be reminded that this is simulated data with no real-life biological meaning or implication. 
+In this practical, we will compute a PRS for systolic blood pressure (SBP) and assess it performance across European and African ancestry datasets to clearly illustrate the portability problem. 
+We will assess the predictive utility of 4 scores:
+
+**ANCESTRY-MATCHED**
+1. EUR base - EUR target: Utilise European summary statistics as the base data and individual-level genotyped data from Europeans as the target dataset. 
+2. AFR base - AFR target: Utilise African summary statistics as the base data and individual-level genotyped data from Africans as the target dataset.
+
+**ANCESTRY-UNMATCHED**
+3. EUR base - AFR target: Utilise European summary statistics as the base data and individual-level genotyped data from Africans as the target dataset.
+4. AFR base - EUR target: Utilise African summary statistics as the base data and individual-level data from genotyped European as the target dataset.
+
+Please note that the sample sizes of the individual-level target data are as follows: Europeans (n = 500) and Africans (n = 650). 
+Also note that this is simulated data with no real-life biological meaning or implication. 
+
 
 |**Phenotype**|**Source**|**Description**|**Download Link**|
 |:---:|:---:|:---:|:---:|
