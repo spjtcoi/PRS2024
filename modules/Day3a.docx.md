@@ -110,8 +110,8 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --thread 8 \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.afr
 ```
-Code: Predicting from European training to African target data
-
+##### Code: Predicting from European training to African target data
+```sh
 Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --prsice /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice_mac \
 --base /Volumes/Chris-1/PRS24/Data_Day4/data/EUR-SBP-simulated.sumstats.prscsx \
@@ -127,9 +127,10 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --pheno-col pheno100 \
 --thread 8 \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.by.eur
+```
 
-Code: Predicting from European training to European target data
-
+##### Code: Predicting from European training to European target data
+```sh
 Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --prsice /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice_mac \
 --base /Volumes/Chris-1/PRS24/Data_Day4/data/EUR-SBP-simulated.sumstats.prscsx \
@@ -145,9 +146,10 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --pheno-col pheno100 \
 --thread 8 \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur  
+```
 
-Code: Predicting from African training to European target data
-
+##### Code: Predicting from African training to European target data
+```sh
 Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --prsice /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice_mac \
 --base /Volumes/Chris-1/PRS24/Data_Day4/data/AFR-SBP-simulated.sumstats.prscsx \ 
@@ -163,7 +165,7 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --pheno-col pheno100 \
 --thread 8 \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.by.afr
- 
+ ```
 ---
 > 
 > ‼️ Note that all target phenotype data in this worshop are **simulated**. They have no specific biological meaning and are for demonstration purposes only. 
