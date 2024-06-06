@@ -91,7 +91,79 @@ All required material for this practical is found in the **data/Day_3a** directo
   - PRSice_linux
   - nagelkerke.R
   - Quantile.R
-    
+
+Code: Predicting from African training to African target data
+
+Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
+--prsice /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice_mac \
+--base /Volumes/Chris-1/PRS24/Data_Day4/data/AFR-SBP-simulated.sumstats.prscsx \
+--A1 A1 \
+--pvalue P \
+--no-clump \
+--beta \
+--snp SNP \
+--score sum \
+--target /Volumes/Chris-1/PRS24/Data_Day4/data/AFR_1kg.hm3.only.csx \
+--binary-target F \
+--pheno /Volumes/Chris-1/PRS24/Data_Day4/data/sbp_afr_1kg.sim_pheno \
+--pheno-col pheno100 \
+--thread 8 \
+--out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.afr
+
+Code: Predicting from European training to African target data
+
+Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
+--prsice /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice_mac \
+--base /Volumes/Chris-1/PRS24/Data_Day4/data/EUR-SBP-simulated.sumstats.prscsx \
+--A1 A1 \
+--pvalue P \
+--no-clump \
+--beta \
+--snp SNP \
+--score sum \
+--target /Volumes/Chris-1/PRS24/Data_Day4/data/AFR_1kg.hm3.only.csx \
+--binary-target F \
+--pheno /Volumes/Chris-1/PRS24/Data_Day4/data/sbp_afr_1kg.sim_pheno \
+--pheno-col pheno100 \
+--thread 8 \
+--out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.by.eur
+
+Code: Predicting from European training to European target data
+
+Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
+--prsice /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice_mac \
+--base /Volumes/Chris-1/PRS24/Data_Day4/data/EUR-SBP-simulated.sumstats.prscsx \
+--A1 A1 \
+--pvalue P \
+--no-clump \
+--beta \
+--snp SNP \
+--score sum \
+--target /Volumes/Chris-1/PRS24/Data_Day4/data/EUR_1kg.hm3.only.csx \
+--binary-target F \
+--pheno /Volumes/Chris-1/PRS24/Data_Day4/data/sbp_eur_1kg.sim_pheno \
+--pheno-col pheno100 \
+--thread 8 \
+--out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur  
+
+Code: Predicting from African training to European target data
+
+Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
+--prsice /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice_mac \
+--base /Volumes/Chris-1/PRS24/Data_Day4/data/AFR-SBP-simulated.sumstats.prscsx \ 
+--A1 A1 \
+--pvalue P \
+--no-clump \
+--beta \
+--snp SNP \
+--score sum \
+--target /Volumes/Chris-1/PRS24/Data_Day4/data/EUR_1kg.hm3.only.csx \
+--binary-target F \
+--pheno /Volumes/Chris-1/PRS24/Data_Day4/data/sbp_eur_1kg.sim_pheno \
+--pheno-col pheno100 \
+--thread 8 \
+--out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.by.afr
+ 
 ---
 > 
 > ‼️ Note that all target phenotype data in this worshop are **simulated**. They have no specific biological meaning and are for demonstration purposes only. 
