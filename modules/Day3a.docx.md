@@ -44,10 +44,10 @@ Please note that the sample sizes of the individual-level target data are as fol
 Also note that this is simulated data with no real-life biological meaning or implication. 
 
 
-|**Phenotype**|**Source**|**Description**|**Download Link**|
+|**Phenotype**|**Source**|**Description**|
 |:---:|:---:|:---:|:---:|
-|Base dataset (EUR)|[Link](https://replace)|GWASsumary stats of SBP| [Link](https://change)|
-|Target dataset (EUR, AFR)|simulated |EUR (n = 500), AFR (n = 650)| [Link](http://change)|
+|Base dataset (EUR, AFR)|simulated |GWASsumary stats of SBP|
+|Target dataset (EUR, AFR)|simulated |EUR (n = 500), AFR (n = 650)| 
 
 
 ## Downloading Datasets
