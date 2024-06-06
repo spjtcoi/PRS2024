@@ -92,8 +92,8 @@ All required material for this practical is found in the **data/Day_3a** directo
   - nagelkerke.R
   - Quantile.R
 
-Code: Predicting from African training to African target data
-
+##### Code: Predicting from African training to African target data
+```sh
 Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --prsice /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice_mac \
 --base /Volumes/Chris-1/PRS24/Data_Day4/data/AFR-SBP-simulated.sumstats.prscsx \
@@ -109,7 +109,7 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --pheno-col pheno100 \
 --thread 8 \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.afr
-
+```
 Code: Predicting from European training to African target data
 
 Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
