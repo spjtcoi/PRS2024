@@ -18,7 +18,7 @@
 ## Day 3a practical
 ## Key Learning Outcomes
 After completing this practical, you should be able to:
-  1. Know how to compute and test ancestry matched and un-matched PRS 
+  1. Know how to compute and test ancestry-matched and un-matched PRS 
   2. Know the effect of the portability problem on PRS prective ability
   3. Understand the effect of the PRS protability problem
      
