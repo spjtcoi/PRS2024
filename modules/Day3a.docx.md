@@ -20,7 +20,7 @@
 After completing this practical, you should be able to:
   1. Compute and analyse ancestry-matched and unmatched PRS.
   2. Understand and identify the impact of ancestry on the predictive utility of PRS. 
-  3. Understand the challenges and limitations of applying PRS in populations with diverse genetic backgrounds, focusing on the reduction in effectiveness due to the portability problem.
+  3. Understand the challenges and limitations of applying PRS in populations with diverse genetic backgrounds, focusing on the reduction in predictive utility due to the portability problem.
      
 ## Base and target datasets 
 In this practical, we will compute a PRS for systolic blood pressure (SBP) and assess it performance across European and African ancestry datasets to clearly illustrate the portability problem. The base dataset will be summary statistics from Europeans and target will be individual level genotyped data from Europeans (n = 500) and Africans (n = 650). Please be reminded that this is simulated data with no real-life biological meaning or implication. 
