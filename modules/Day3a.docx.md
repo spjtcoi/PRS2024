@@ -37,8 +37,8 @@ We will assess the predictive utility of 4 scores:
 2. AFR base - AFR target: Utilise African summary statistics as the base data and individual-level genotyped data from Africans as the target dataset.
 
 **ANCESTRY-UNMATCHED**
-3. EUR base - AFR target: Utilise European summary statistics as the base data and individual-level genotyped data from Africans as the target dataset.
-4. AFR base - EUR target: Utilise African summary statistics as the base data and individual-level data from genotyped European as the target dataset.
+1. EUR base - AFR target: Utilise European summary statistics as the base data and individual-level genotyped data from Africans as the target dataset. 
+2. AFR base - EUR target: Utilise African summary statistics as the base data and individual-level data from genotyped European as the target dataset.
 
 Please note that the sample sizes of the individual-level target data are as follows: Europeans (n = 500) and Africans (n = 650). 
 Also note that this is simulated data with no real-life biological meaning or implication. 
