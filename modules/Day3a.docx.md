@@ -4,8 +4,8 @@
 
 ## Table of Contents
 
-  1. [Key Learning Outcomes](#key-learning-outcomes)
-  2. [Method](#Method)
+  1. [Key Learning Outcomes](#Key-learning-outcomes)
+  2. [Method for calculating PRS](#Method-for-calculating-PRS)
   3. [Base and target datasets](#Base-and-target-datasets)
   4. [Downloading Datasets](#Downloading-Datasets) 
   5. [Exercise 1 Estimating R<sup>2</sup> ](#exercise-1-estimating-r2)
@@ -24,7 +24,7 @@ After completing this practical, you should be able to:
   5. Understand the challenges and limitations of applying PRS in populations with diverse genetic backgrounds.
 
 
-## Method 
+## Method for calculating PRS
 For this practical we will use PRSice-2. PRSice-2 is one of the dedicated PRS calculation and analysis programs that makes use of a sequence of PLINK functions.
 The tools utilises the standard clumping and thresholding (C+T) approach.
 
