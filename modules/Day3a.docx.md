@@ -143,11 +143,19 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --thread 8 \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur  
 ```
-View the output file: SBP_trial.eur.eur 
+View the output file: 
+cat SBP_trial.eur.eur.summary
+ 
 <details>
   <summary>Which P-value threshold generates the "best-fit" PRS?</summary>
   ANSWER.
 </details>
+
+<details>
+  <summary>How muany SNPs are included in the "best-fit" PRS explain?</summary>
+  Number of SNPs = xxx.
+</details>
+
 
 <details>
   <summary>How much phenotypic variation does the "best-fit" PRS explain?</summary>
@@ -172,10 +180,17 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --thread 8 \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.afr
 ```
-View the output file: SBP_trial.afr.afr
+View the output file:
+cat SBP_trial.afr.afr.summary
+
 <details>
   <summary>Which P-value threshold generates the "best-fit" PRS?</summary>
   ANSWER.
+</details>
+
+<details>
+  <summary>How muany SNPs are included in the "best-fit" PRS explain?</summary>
+  Number of SNPs = xxx.
 </details>
 
 <details>
@@ -202,10 +217,17 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.by.eur
 ```
 
-View the output file: SBP_trial.afr.by.eur
+View the output file: 
+cat SBP_trial.afr.eur.summary 
+
 <details>
   <summary>Which P-value threshold generates the "best-fit" PRS?</summary>
   ANSWER.
+</details>
+
+<details>
+  <summary>How muany SNPs are included in the "best-fit" PRS explain?</summary>
+  Number of SNPs = xxx.
 </details>
 
 <details>
@@ -234,11 +256,17 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
  ```
 ---
 
-View the output file: SBP_trial.eur.by.afr
+View the output file: 
+cat SBP_trial.eur.eur.summary 
 
 <details>
   <summary>Which P-value threshold generates the "best-fit" PRS?</summary>
   ANSWER.
+</details>
+
+<details>
+  <summary>How muany SNPs are included in the "best-fit" PRS explain?</summary>
+  Number of SNPs = xxx.
 </details>
 
 <details>
