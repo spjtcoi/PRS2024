@@ -173,6 +173,16 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.afr
 ```
 
+<details>
+  <summary>Which P-value threshold generates the "best-fit" PRS?</summary>
+  ANSWER.
+</details>
+
+<details>
+  <summary>How much phenotypic variation does the "best-fit" PRS explain?</summary>
+  ANSWER.
+</details>
+
 #### Scenario 3: Predicting from EUR training to AFR target data
 ```sh
 Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
@@ -191,6 +201,17 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --thread 8 \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.by.eur
 ```
+
+<details>
+  <summary>Which P-value threshold generates the "best-fit" PRS?</summary>
+  ANSWER.
+</details>
+
+<details>
+  <summary>How much phenotypic variation does the "best-fit" PRS explain?</summary>
+  ANSWER.
+</details>
+
 
 #### Scenario 4: Predicting from AFR training to EUR target data
 ```sh
@@ -211,6 +232,17 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.by.afr
  ```
 ---
+
+<details>
+  <summary>Which P-value threshold generates the "best-fit" PRS?</summary>
+  ANSWER.
+</details>
+
+<details>
+  <summary>How much phenotypic variation does the "best-fit" PRS explain?</summary>
+  ANSWER.
+</details>
+
 > 
 > ‼️ Note that all target phenotype data in this worshop are **simulated**. They have no specific biological meaning and are for demonstration purposes only. 
 > 
