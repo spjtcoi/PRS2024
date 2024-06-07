@@ -93,6 +93,10 @@ All required material for this practical is found in the **data/Day_3a** directo
 
 ##### Key parameters to the code
 
+|**Parameter**|**Value**|**Description**|
+|:---:|:---:|:---:|:---:|
+|Base dataset (EUR, AFR)|simulated |GWASsumary stats of SBP|
+|Target dataset (EUR, AFR)|simulated |EUR (n = 500), AFR (n = 650)|
 ##### Code: Predicting from African training to African target data
 ```sh
 Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
