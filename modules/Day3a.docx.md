@@ -46,7 +46,7 @@ Also note that this is simulated data with no real-life biological meaning or im
 
 |**Phenotype**|**Source**|**Description**|
 |:---:|:---:|:---:|
-|Base dataset (EUR, AFR)|simulated |GWASsumary stats of SBP|
+|Base dataset (EUR, AFR)|simulated |GWAS summary stats of SBP|
 |Target dataset (EUR, AFR)|simulated |EUR (n = 500), AFR (n = 650)| 
 
 
