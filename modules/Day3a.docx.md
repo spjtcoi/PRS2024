@@ -144,6 +144,16 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur  
 ```
 
+<details>
+  <summary>Which P-value threshold generates the "best-fit" PRS?</summary>
+  ANSWER.
+</details>
+
+<details>
+  <summary>How much phenotypic variation does the "best-fit" PRS explain?</summary>
+  ANSWER.
+</details>
+
 #### Scenario 2: Predicting from AFR training to AFR target data
 ```sh
 Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
