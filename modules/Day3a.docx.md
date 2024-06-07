@@ -25,8 +25,7 @@ After completing this practical, you should be able to:
 
 
 ## Method for calculating PRS
-For this practical we will use PRSice-2. PRSice-2 is one of the dedicated PRS calculation and analysis programs that makes use of a sequence of PLINK functions.
-The tools utilises the standard clumping and thresholding (C+T) approach.
+For this practical we will use PRSice-2. PRSice-2 is one of the dedicated PRS calculation and analysis programs that makes use of a sequence of PLINK functions. The tools utilises the standard clumping and thresholding (C+T) approach.
 
 ## Base and target datasets 
 In this practical, we will compute a PRS for systolic blood pressure (SBP) and assess it performance across European and African ancestry datasets to clearly illustrate the portability problem. 
@@ -91,6 +90,8 @@ All required material for this practical is found in the **data/Day_3a** directo
   - PRSice_linux
   - nagelkerke.R
   - Quantile.R
+
+##### Key parameters to the code
 
 ##### Code: Predicting from African training to African target data
 ```sh
