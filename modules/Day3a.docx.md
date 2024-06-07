@@ -93,7 +93,8 @@ All required material for this practical is found in the **data/Day_3a** directo
   - Quantile.R
 
 ##### Key parameters to the code
-These parameters are based on the first scenarios code, e.g., AFR base data into AFR target data. 
+
+Note: The parameters listed in this table remain consistent across various scenarios, but the specific values may change based on the dataset and analysis scenario. For illustrative purposes, this table uses the scenario of an African base and African target population:  
 
 |**Parameter**|**Value**|**Description**|
 |:---:|:---:|:---:|
