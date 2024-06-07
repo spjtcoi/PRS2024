@@ -174,6 +174,11 @@ cat /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur.summary
 </details>
 
 <details>
+  <summary> Is the PRS calculated at this P-value threshold significnatly?</summary>
+  ANSWER.
+</details>
+
+<details>
   <summary>How many SNPs are included in the "best-fit" PRS?</summary>
   Number of SNPs = xxx.
 </details>
