@@ -143,7 +143,7 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --thread 8 \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur  
 ```
-
+View the output file: SBP_trial.eur.eur 
 <details>
   <summary>Which P-value threshold generates the "best-fit" PRS?</summary>
   ANSWER.
@@ -172,7 +172,7 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --thread 8 \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.afr
 ```
-
+View the output file: SBP_trial.afr.afr
 <details>
   <summary>Which P-value threshold generates the "best-fit" PRS?</summary>
   ANSWER.
@@ -180,7 +180,7 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 
 <details>
   <summary>How much phenotypic variation does the "best-fit" PRS explain?</summary>
-  ANSWER.
+  R<sup>2</sup> = 0.02 (2.0%).
 </details>
 
 #### Scenario 3: Predicting from EUR training to AFR target data
@@ -202,6 +202,7 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.by.eur
 ```
 
+View the output file: SBP_trial.afr.by.eur
 <details>
   <summary>Which P-value threshold generates the "best-fit" PRS?</summary>
   ANSWER.
@@ -209,7 +210,7 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 
 <details>
   <summary>How much phenotypic variation does the "best-fit" PRS explain?</summary>
-  ANSWER.
+  R<sup>2</sup> = 0.078 (7.8%).
 </details>
 
 
@@ -233,6 +234,8 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
  ```
 ---
 
+View the output file: SBP_trial.eur.by.afr
+
 <details>
   <summary>Which P-value threshold generates the "best-fit" PRS?</summary>
   ANSWER.
@@ -240,7 +243,7 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 
 <details>
   <summary>How much phenotypic variation does the "best-fit" PRS explain?</summary>
-  ANSWER.
+  R<sup>2</sup> = 0.025 (2.5%).
 </details>
 
 > 
