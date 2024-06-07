@@ -96,7 +96,7 @@ All required material for this practical is found in the **data/Day_3a** directo
 These parameters are based on the first scenarios code, e.g., AFR base data into AFR target data. 
 
 |**Parameter**|**Value**|**Description**|
-|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|
 |prsice|PRSice_xxx|Informs PRSice.R that the location of the PRSice binary|
 |base|Height.QC.gz|Specifies the GWAS summary statistics file for input|
 |A1|A1|Column name for the effect allele in the GWAS summary statistics|
