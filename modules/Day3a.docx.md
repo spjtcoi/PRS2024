@@ -29,12 +29,12 @@ In this practical, we will compute a PRS for systolic blood pressure (SBP) and a
 We will assess the predictive utility of 4 scores:
 
 **ANCESTRY-MATCHED**
-1. EUR base - EUR target: Utilise European summary statistics as the base data and individual-level genotyped data from Europeans as the target dataset. 
-2. AFR base - AFR target: Utilise African summary statistics as the base data and individual-level genotyped data from Africans as the target dataset.
+1. EUR base - EUR target: Utilise European summary statistics as the training data and individual-level genotyped data from Europeans as the target dataset. 
+2. AFR base - AFR target: Utilise African summary statistics as the training data and individual-level genotyped data from Africans as the target dataset.
 
 **ANCESTRY-UNMATCHED**
-1. EUR base - AFR target: Utilise European summary statistics as the base data and individual-level genotyped data from Africans as the target dataset. 
-2. AFR base - EUR target: Utilise African summary statistics as the base data and individual-level data from genotyped European as the target dataset.
+1. EUR base - AFR target: Utilise European summary statistics as the training data and individual-level genotyped data from Africans as the target dataset. 
+2. AFR base - EUR target: Utilise African summary statistics as the training data and individual-level data from genotyped European as the target dataset.
 
 Please note that the sample sizes of the individual-level target data are as follows: 
 Europeans (n = 500) and Africans (n = 650). 
@@ -93,7 +93,7 @@ All required material for this practical is found in the **data/Day_3a** directo
 ## Method for calculating PRS
 For this practical we will use PRSice-2. PRSice-2 is one of the dedicated PRS calculation and analysis programs that makes use of a sequence of PLINK functions. The tools utilises the standard clumping and thresholding (C+T) approach.
 
-### Exercise 1 Estimating R<sup>2</sup> 
+## Exercise 1 Estimating R<sup>2</sup> 
 
 ### Key parameters to the code
 
@@ -123,9 +123,9 @@ Note: The parameters listed in this table remain consistent across various scena
 
 This will automatically perform "high-resolution scoring" and generate the "best-fit" PRS (e.g. in EUR.best), with associated plots of the results.
 
-## Code
+### Code
 
-### Scenario 1: Predicting from EUR training to EUR target data
+#### Scenario 1: Predicting from EUR training to EUR target data
 ```sh
 Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --prsice /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice_mac \
@@ -144,8 +144,7 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur  
 ```
 
-
-### Scenario 2: Predicting from AFR training to AFR target data
+#### Scenario 2: Predicting from AFR training to AFR target data
 ```sh
 Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --prsice /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice_mac \
@@ -163,7 +162,8 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --thread 8 \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.afr
 ```
-### Scenario 3: Predicting from EUR training to AFR target data
+
+#### Scenario 3: Predicting from EUR training to AFR target data
 ```sh
 Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --prsice /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice_mac \
@@ -182,7 +182,7 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.by.eur
 ```
 
-### Scenario 4: Predicting from AFR training to EUR target data
+#### Scenario 4: Predicting from AFR training to EUR target data
 ```sh
 Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --prsice /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice_mac \
