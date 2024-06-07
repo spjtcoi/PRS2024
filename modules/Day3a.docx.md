@@ -5,9 +5,9 @@
 ## Table of Contents
 
   1. [Key Learning Outcomes](#Key-learning-outcomes)
-  2. [Base and target datasets](#Base-and-target-datasets)
+  2. [Base and Target datasets](#Base-and-target-datasets)
   3. [Downloading Datasets](#Downloading-Datasets)
-  4. [Method for calculating PRS](#Method-for-calculating-PRS)
+  4. [Method for Calculating PRS](#Method-for-calculating-PRS)
   5. [Exercise 1 Estimating R<sup>2</sup>](#exercise-1-estimating-r2)
   6. [Exercise 2 Visualising and comparing R<sup>2</sup>](#exercise-2-visualising-r2)
        
@@ -53,7 +53,6 @@ The required datasets for this part of the practical can be downloaded at:
 The data will be downloaded into your "Downloads" folder. You will need to move it to right directory, using the following commands.
 
 
-
 ```
 cd data
 mv ~/Downloads/Day_3.zip .
@@ -93,7 +92,9 @@ For this practical we will use PRSice-2. PRSice-2 is one of the dedicated PRS ca
 
 ### Key code parameters
 
-Note: The parameters listed in this table remain consistent across various scenarios, but the specific values may change based on the dataset and analysis scenario. For illustrative purposes, this table uses the first scenario, EUR base and EUR target population:  
+The parameters listed in this table remain consistent across various scenarios, but the specific values may change based on the dataset and analysis scenario. 
+
+For illustrative purposes, this table uses the first scenario, EUR base and EUR target population:  
 
 |**Parameter**|**Value**|**Description**|
 |:---:|:---:|:---:|
@@ -298,6 +299,8 @@ cat /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur.summary
 </details>
 
 ## Exercise 2 Visualising and comparing R<sup>2</sup>
+
+In this exercise, we will analyse and compare the phenotypic variance explained (R<sup>2</sup>) by PRS across different combinations of base and target ancestries. 
 
 Combine the summary files and visualise the performance of each PRS 
 ```sh
