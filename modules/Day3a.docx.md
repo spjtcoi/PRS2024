@@ -285,10 +285,14 @@ cat /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur.summary
 ```
 
 <details>
-  <summary>How many SNPs are included in the "best-fit" PRS? Why is the number of SNPs important in PRS calcualtion?</summary>
+  <summary>How many SNPs are included in the "best-fit" PRS? </summary>
   Number of SNPs = xxx.
-  
-  The number of SNPs is crucial in PRS calculations because it directly influences the accuracy and predictive power of the score. Including a larger number of informative SNPs generally increases the likelihood of capturing significant genetic effects associated with the trait. However, it's important to balance quantity with quality; too many SNPs might include noise, which can dilute the true genetic signal and decrease the overall effectiveness of the PRS in distinguishing phenotypic outcomes.
+<details>  
+
+<details>
+  <summary> Why is the number of SNPs important in PRS calcualtion? </summary>
+  The number of SNPs is crucial in PRS calculations because it directly influences the accuracy and predictive power of the score. 
+  Including a larger number of informative SNPs generally increases the likelihood of capturing significant genetic effects associated with the trait. However, it's important to balance quantity with quality; too many SNPs might include noise, which can dilute the true genetic signal and decrease the overall effectiveness of the PRS in distinguishing phenotypic outcomes.
 </details>
 
 
