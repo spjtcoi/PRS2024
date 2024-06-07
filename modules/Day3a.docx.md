@@ -251,7 +251,7 @@ cat /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.afr.eur.summary
 </details>
 
 <details>
-  <summary>How muany SNPs are included in the "best-fit" PRS explain?</summary>
+  <summary>How many SNPs are included in the "best-fit" PRS explain?</summary>
   Number of SNPs = xxx.
 </details>
 
@@ -289,7 +289,7 @@ cat /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur.summary
 </details>
 
 <details>
-  <summary>How muany SNPs are included in the "best-fit" PRS explain?</summary>
+  <summary>How many SNPs are included in the "best-fit" PRS explain?</summary>
   Number of SNPs = xxx.
 </details>
 
@@ -305,6 +305,7 @@ In this exercise, we will analyse and compare the phenotypic variance explained 
 Combine the summary files and visualise the performance of each PRS 
 ```sh
 Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/R --- to check \
+
 # Load necessary libraries
 library(ggplot2)
 library(RColorBrewer)
@@ -365,6 +366,8 @@ Examine the bar plot indicating the R<sup>2</sup> for each base:target ancestry 
   <summary>Are all results as expected? Explain why this may be the case.</summary>
   R<sup>2</sup> = 0.025 (2.5%).
 </details>
+
+
 
 
 
