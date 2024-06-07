@@ -8,10 +8,11 @@
   2. [Base and target datasets](#Base-and-target-datasets)
   3. [Downloading Datasets](#Downloading-Datasets)
   4. [Method for calculating PRS](#Method-for-calculating-PRS)
-  5. [Exercise 1 Estimating R<sup>2</sup> ](#exercise-1-estimating-r2)
-  6. [Exercise 2 Overfitting caused by model optimisation](#exercise-2-Overfitting-caused-by-model-optimisation)
-  7. [Introduction to cross-ancestry PRS computation](#Cross-ancestry-PRS-computation)
-  8. [Cross-ancestry PRS analysis using PRS-CSx](#Cross-ancestry-PRS-computation)
+  5. [Exercise 1 Estimating R<sup>2</sup>](#exercise-1-estimating-r2)
+  6. [Exercise 2 Visualising and comparing R<sup>2</sup> across different base:target scenarios](#exercise-2-visualising-r2)
+  7. [Exercise 2 Overfitting caused by model optimisation](#exercise-2-Overfitting-caused-by-model-optimisation)
+  9. [Introduction to cross-ancestry PRS computation](#Cross-ancestry-PRS-computation)
+  10. [Cross-ancestry PRS analysis using PRS-CSx](#Cross-ancestry-PRS-computation)
 
      
 ## Day 3a practical
@@ -145,13 +146,16 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 ```
 
 <details>
-  <summary>How many files?</summary>
+  <summary>How many files have been generated from this code?</summary>
   ANSWER.
 </details>
 
+<details>
+  <summary>Which file provides a summary of the "best-fit" PRS?</summary>
+  ANSWER.
+</details>
 
-
-View the output file: 
+View this summary output file: 
 cat SBP_trial.eur.eur.summary
  
 <details>
@@ -281,6 +285,37 @@ cat SBP_trial.eur.eur.summary
   <summary>How much phenotypic variation does the "best-fit" PRS explain?</summary>
   R<sup>2</sup> = 0.025 (2.5%).
 </details>
+
+## Exercise 2 Visualise and compare R<sup>2</sup> across different base:target scenarios
+
+Combine the summary files and visualise the performance of each score 
+
+Code 
+
+<details>
+  <summary>Which base:target pair has the highest phenotypic variance explained?</summary>
+  ANSWER.
+</details>
+
+<details>
+  <summary>Which base:target pair has the lowest phenotypic variance explained?</summary>
+  ANSWER.
+</details>
+
+<details>
+  <summary>Explain the results?</summary>
+   xxx.
+</details>
+
+<details>
+  <summary>Are all results as expected? Explain why this may be the case.</summary>
+  R<sup>2</sup> = 0.025 (2.5%).
+</details>
+
+
+
+
+
 
 > 
 > ‼️ Note that all target phenotype data in this worshop are **simulated**. They have no specific biological meaning and are for demonstration purposes only. 
