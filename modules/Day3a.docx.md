@@ -290,11 +290,10 @@ Number of SNPs = xxx.
 <details>  
 
 <details>
- <summary> Why is the number of SNPs important in PRS calcualtion? </summary>
+<summary>Why is the number of SNPs important in PRS calcualtion? </summary>
 The number of SNPs is crucial in PRS calculations because it directly influences the accuracy and predictive power of the score. 
 Including a larger number of informative SNPs generally increases the likelihood of capturing significant genetic effects associated with the trait. However, it's important to balance quantity with quality; too many SNPs might include noise, which can dilute the true genetic signal and decrease the overall effectiveness of the PRS in distinguishing phenotypic outcomes.
-</details>
-
+<details>  
 
 #### Scenario 2: Predicting from AFR training to AFR target data
 ```sh
