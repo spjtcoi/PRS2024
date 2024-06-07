@@ -101,8 +101,8 @@ These parameters are based on the first scenarios code, e.g., AFR base data into
 |base|Height.QC.gz|Specifies the GWAS summary statistics file for input|
 |A1|A1|Column name for the effect allele in the GWAS summary statistics|
 |p value|P|Column name for the p-values of SNPs in the GWAS summary statistics|
-|no clump| |Instructs PRSice to skip the clumping process, which is used to remove SNPs in linkage disequilibrium|
-|beta||Indicates that the effect sizes are given in beta coefficients (linear regression coefficients)|
+|no clump|-|Instructs PRSice to skip the clumping process, which is used to remove SNPs in linkage disequilibrium|
+|beta|-|Indicates that the effect sizes are given in beta coefficients (linear regression coefficients)|
 |snp|SNP|Column name for SNP identifiers in the GWAS summary statistics|
 |score|sum|Specifies that the score calculation should sum the product of SNP effect sizes and their genotype counts|
 |target|AFR_1kg.hm3.only.csx|The genotype data file for the target sample|
