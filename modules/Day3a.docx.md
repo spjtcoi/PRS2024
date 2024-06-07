@@ -252,31 +252,31 @@ Examine the bar plot indicating the R<sup>2</sup> at each p-value threshold.
   P-value threshold of xxx.
 </details>
 
-  <details> <summary>What does "best-fit" mean?</summary>
-   "Best-fit" refers to the P-value threshold at which the PRS accounts for the highest proportion of variance in the phenotype compared to other thresholds tested, suggesting an optimal balance between including informative SNPs and excluding noise from less relevant variants.
+<details> 
+  <summary>What does "best-fit" mean?</summary>
+"Best-fit" refers to the P-value threshold at which the PRS accounts for the highest proportion of variance in the phenotype compared to other thresholds tested, suggesting an optimal balance between including informative SNPs and excluding noise from less relevant variants.
 </details>
 
-<details> <summary>Why does this matter?</summary>
-  Choosing the optimal P-value threshold is crucial because it affects the sensitivity and specificity of the PRS. A threshold that is too lenient (high P-value) might include too many SNPs, adding noise and possibly diluting the predictive power of the score. Conversely, a threshold that is too stringent (low P-value) might exclude potentially informative SNPs, reducing the ability of the PRS to capture the genetic architecture of the trait.
-</details>
-
-<details>
-  <summary>How much phenotypic variation does the "best-fit" PRS explain? What does this mean in very simple terms?</summary>
-  R<sup>2</sup> = 0.078 (7.8%).
- 
-  This R<sup>2</sup> value means that out of the total variability observed in the trait across the population (under study), 7.8% can be attributed to the genetic variants included in this PRS.
+<details> 
+<summary>Why does this matter?</summary>
+Choosing the optimal P-value threshold is crucial because it affects the sensitivity and specificity of the PRS. A threshold that is too lenient (high P-value) might include too many SNPs, adding noise and possibly diluting the predictive power of the score. Conversely, a threshold that is too stringent (low P-value) might exclude potentially informative SNPs, reducing the ability of the PRS to capture the genetic architecture of the trait.
 </details>
 
 <details>
-  <summary>What is the significance of the association (p-value) between the "best-fit" PRS and trait?</summary>
-  The p-value is xxxx. 
-  
-  A p-value below 0.05 indicates statistically significant evidence that the PRS at this threshold significantly explains phenotypic variance and captures genuine genetic associations with the phenotype.
+<summary>How much phenotypic variation does the "best-fit" PRS explain? What does this mean in very simple terms?</summary>
+R<sup>2</sup> = 0.078 (7.8%).
+This R<sup>2</sup> value means that out of the total variability observed in the trait across the population (under study), 7.8% can be attributed to the genetic variants included in this PRS.
 </details>
 
 <details>
-  <summary>Which file provides a summary of the "best-fit" PRS?</summary>
-  SBP_trial.eur.eur.summary
+<summary>What is the significance of the association (p-value) between the "best-fit" PRS and trait?</summary>
+The p-value is xxxx. 
+A p-value below 0.05 indicates statistically significant evidence that the PRS at this threshold significantly explains phenotypic variance and captures genuine genetic associations with the phenotype.
+</details>
+
+<details>
+<summary>Which file provides a summary of the "best-fit" PRS?</summary>
+SBP_trial.eur.eur.summary
 </details>
 
 View this summary output file: 
@@ -285,14 +285,14 @@ cat /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur.summary
 ```
 
 <details>
-  <summary>How many SNPs are included in the "best-fit" PRS? </summary>
-  Number of SNPs = xxx.
+<summary>How many SNPs are included in the "best-fit" PRS? </summary>
+Number of SNPs = xxx.
 <details>  
 
 <details>
-  <summary> Why is the number of SNPs important in PRS calcualtion? </summary>
-  The number of SNPs is crucial in PRS calculations because it directly influences the accuracy and predictive power of the score. 
-  Including a larger number of informative SNPs generally increases the likelihood of capturing significant genetic effects associated with the trait. However, it's important to balance quantity with quality; too many SNPs might include noise, which can dilute the true genetic signal and decrease the overall effectiveness of the PRS in distinguishing phenotypic outcomes.
+ <summary> Why is the number of SNPs important in PRS calcualtion? </summary>
+The number of SNPs is crucial in PRS calculations because it directly influences the accuracy and predictive power of the score. 
+Including a larger number of informative SNPs generally increases the likelihood of capturing significant genetic effects associated with the trait. However, it's important to balance quantity with quality; too many SNPs might include noise, which can dilute the true genetic signal and decrease the overall effectiveness of the PRS in distinguishing phenotypic outcomes.
 </details>
 
 
