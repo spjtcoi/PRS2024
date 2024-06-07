@@ -22,7 +22,7 @@ The course will begin with an overview of genome-wide association studies, an in
 - [Christopher Kintu](https://www.researchgate.net/scientific-contributions/Christopher-Kintu-2149755900),Makerere University, Uganda
 - [Carene Ndong Sima](https://www.linkedin.com/in/carene-anne-alene-ndong-sima),Stellenbosch University, South Africa 
 - [Jones Gyamfi](https://research.tees.ac.uk/en/persons/jones-gyamfi), Teesside University, Middlesbrough, UK
-- [Susan Kanjira](404)
+- [Susan Kanjira](404), University of Edinburgh, UK
 - [Michelle Kamp](404),King's College London, UK 
 
 
