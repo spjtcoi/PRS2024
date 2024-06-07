@@ -51,7 +51,7 @@ Also note that this is simulated data with no real-life biological meaning or im
 |Target dataset (EUR, AFR)|simulated |EUR (n = 500), AFR (n = 650)| 
 
 
-## Downloading Datasets
+### Downloading Datasets
 
 The required datasets for this part of the practical can be downloaded at:       
 
@@ -93,7 +93,9 @@ All required material for this practical is found in the **data/Day_3a** directo
   - nagelkerke.R
   - Quantile.R
 
-## Key parameters to the code
+## Exercise 1 Estimating R<sup>2</sup> 
+
+### Key parameters to the code
 
 Note: The parameters listed in this table remain consistent across various scenarios, but the specific values may change based on the dataset and analysis scenario. For illustrative purposes, this table uses the scenario of an African base and African target population:  
 
