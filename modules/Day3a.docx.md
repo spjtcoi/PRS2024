@@ -101,7 +101,7 @@ Note: The parameters listed in this table remain consistent across various scena
 
 |**Parameter**|**Value**|**Description**|
 |:---:|:---:|:---:|
-|prsice|PRSice_xxx|Informs PRSice.R that the location of the PRSice binary|
+|prsice|PRSice_xxx|Informs PRSice.R that the location of the PRSice binary, xxx is the operation system (max or linux) |
 |base|EUR-SBP-simulated.sumstats.prscsx|Specifies the GWAS summary statistics file for input|
 |A1|A1|Column name for the effect allele in the GWAS summary statistics|
 |p value|P|Column name for the p-values of SNPs in the GWAS summary statistics|
@@ -151,7 +151,7 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 
 <details>
   <summary>How much phenotypic variation does the "best-fit" PRS explain?</summary>
-  ANSWER.
+  R<sup>2</sup> = 0.078 (7.8%).
 </details>
 
 #### Scenario 2: Predicting from AFR training to AFR target data
