@@ -144,7 +144,7 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 ```
 
 <details>
-  <summary>How many files have been generated from this code?</summary>
+  <summary>How many files have been generated from this code and what does each file show you?</summary>
   ANSWER.
 </details>
 
@@ -174,17 +174,17 @@ cat /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur.summary
 </details>
 
 <details>
-  <summary> Is the PRS calculated at this P-value threshold significnatly?</summary>
+  <summary> Is the PRS calculated at this P-value threshold significantly associated with SBP?</summary>
   ANSWER.
 </details>
 
 <details>
-  <summary>How many SNPs are included in the "best-fit" PRS?</summary>
+  <summary>How many SNPs are included in the "best-fit" PRS? Why is the number of SNPs important in PRS calcualtion?</summary>
   Number of SNPs = xxx.
 </details>
 
 <details>
-  <summary>How much phenotypic variation does the "best-fit" PRS explain?</summary>
+  <summary>How much phenotypic variation does the "best-fit" PRS explain? What does this mean in very simple terms?</summary>
   R<sup>2</sup> = 0.078 (7.8%).
 </details>
 
