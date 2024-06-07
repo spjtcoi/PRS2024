@@ -1,5 +1,9 @@
 ## Day 3b practical
 
+7. [Introduction to cross-ancestry PRS computation](#Cross-ancestry-PRS-computation)
+  8. [Cross-ancestry PRS analysis using PRS-CSx](#Cross-ancestry-PRS-computation)
+
+
 ## Introduction to Cross-Ancestry PRS computation
 Before starting the practical the following commands will need to be run from within your virtual machine:
 
