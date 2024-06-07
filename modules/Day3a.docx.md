@@ -5,9 +5,9 @@
 ## Table of Contents
 
   1. [Key Learning Outcomes](#Key-learning-outcomes)
-  2. [Method for calculating PRS](#Method-for-calculating-PRS)
-  3. [Base and target datasets](#Base-and-target-datasets)
-  4. [Downloading Datasets](#Downloading-Datasets) 
+  2. [Base and target datasets](#Base-and-target-datasets)
+  3. [Downloading Datasets](#Downloading-Datasets)
+  4. [Method for calculating PRS](#Method-for-calculating-PRS)
   5. [Exercise 1 Estimating R<sup>2</sup> ](#exercise-1-estimating-r2)
   6. [Exercise 2 Overfitting caused by model optimisation](#exercise-2-Overfitting-caused-by-model-optimisation)
   7. [Introduction to cross-ancestry PRS computation](#Cross-ancestry-PRS-computation)
@@ -24,7 +24,7 @@ After completing this practical, you should be able to:
   5. Understand the challenges and limitations of applying PRS in populations with diverse genetic backgrounds.
 
 
-## Base and target datasets 
+## Base and Target datasets 
 In this practical, we will compute a PRS for systolic blood pressure (SBP) and assess it performance across European and African ancestry datasets to clearly illustrate the portability problem. 
 We will assess the predictive utility of 4 scores:
 
@@ -48,7 +48,7 @@ Also note that this is simulated data with no real-life biological meaning or im
 |Target dataset (EUR, AFR)|simulated |EUR (n = 500), AFR (n = 650)| 
 
 
-### Downloading Datasets
+## Downloading Datasets
 
 The required datasets for this part of the practical can be downloaded at:       
 
