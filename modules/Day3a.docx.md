@@ -9,7 +9,7 @@
   3. [Downloading Datasets](#Downloading-Datasets)
   4. [Method for calculating PRS](#Method-for-calculating-PRS)
   5. [Exercise 1 Estimating R<sup>2</sup>](#exercise-1-estimating-r2)
-  6. [Exercise 2 Visualising and comparing R<sup>2</sup> across different base:target scenarios](#exercise-2-visualising-r2)
+  6. [Exercise 2 Visualising and comparing R<sup>2</sup>](#exercise-2-visualising-r2)
   7. [Exercise 2 Overfitting caused by model optimisation](#exercise-2-Overfitting-caused-by-model-optimisation)
   9. [Introduction to cross-ancestry PRS computation](#Cross-ancestry-PRS-computation)
   10. [Cross-ancestry PRS analysis using PRS-CSx](#Cross-ancestry-PRS-computation)
@@ -286,7 +286,7 @@ cat SBP_trial.eur.eur.summary
   R<sup>2</sup> = 0.025 (2.5%).
 </details>
 
-## Exercise 2 Visualise and compare R<sup>2</sup> across different base:target scenarios
+## Exercise 2 Visualising and comparing R<sup>2</sup>
 
 Combine the summary files and visualise the performance of each score 
 
