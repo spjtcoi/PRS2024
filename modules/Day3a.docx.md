@@ -143,6 +143,14 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 --thread 8 \
 --out /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur  
 ```
+
+<details>
+  <summary>How many files?</summary>
+  ANSWER.
+</details>
+
+
+
 View the output file: 
 cat SBP_trial.eur.eur.summary
  
@@ -152,7 +160,7 @@ cat SBP_trial.eur.eur.summary
 </details>
 
 <details>
-  <summary>How muany SNPs are included in the "best-fit" PRS explain?</summary>
+  <summary>How muany SNPs are included in the "best-fit" PRS?</summary>
   Number of SNPs = xxx.
 </details>
 
