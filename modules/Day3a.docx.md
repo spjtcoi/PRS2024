@@ -229,15 +229,17 @@ Rscript /Volumes/Chris-1/PRS24/Data_Day4/software/PRSice.R \
 
 <details>
   <summary>How many files have been generated from this code and what does each file show you?</summary>
-  This code generates xxx?? files. Each files serves a different purpose in the analysis and interpretation of derived PRS.
-  these are outlined below: 
+  This code generates xxx?? files. 
+  Each files serves a different purpose in the analysis and interpretation of derived PRS.
+  These are outlined below: 
   
   1. Summary Statistics File: Provides a high-level overview of the PRS analysis results, allowing for a quick assessment of the PRS model's performance.
   2. Log File: Useful for debugging and detailed tracking of the computational steps undertaken during the PRS calculation.
   3. High-resolution Plots: Assist in visually assessing the sensitivity of PRS performance to the choice of P-value cutoffs and in selecting the optimal model.
   4. Best-fit PRS File: Essential for understanding which genetic variants contribute most significantly to the trait under study in the specific dataset used.
-  5. Score Files: Allow for the practical application of the PRS in predicting or studying the trait within the study population; these scores are what you would correlate with actual phenotypic outcomes to validate or use the PRS..
+  5. Score Files: Allow for the practical application of the PRS in predicting or studying the trait within the study population; these scores are what you would correlate with actual phenotypic outcomes to validate or   use the PRS.
 </details>
+
 
 Examine the bar plot indicating the R<sup>2</sup> at each p-value threshold.
 
@@ -247,7 +249,7 @@ Examine the bar plot indicating the R<sup>2</sup> at each p-value threshold.
 ```
 <details>
   <summary>Which P-value threshold generates the "best-fit" PRS?</summary>
-  P-value threshold of xxx.This threshold was determined as the best fit because it maximised the phenotypic variance explained.
+  P-value threshold of xxx.
 </details>
 
   <details> <summary>What does "best-fit" mean?</summary>
@@ -261,18 +263,20 @@ Examine the bar plot indicating the R<sup>2</sup> at each p-value threshold.
 <details>
   <summary>How much phenotypic variation does the "best-fit" PRS explain? What does this mean in very simple terms?</summary>
   R<sup>2</sup> = 0.078 (7.8%).
+ 
   This R<sup>2</sup> value means that out of the total variability observed in the trait across the population (under study), 7.8% can be attributed to the genetic variants included in this PRS.
 </details>
 
 <details>
   <summary>What is the significance of the association (p-value) between the "best-fit" PRS and trait?</summary>
   The p-value is xxxx. 
+  
   A p-value below 0.05 indicates statistically significant evidence that the PRS at this threshold significantly explains phenotypic variance and captures genuine genetic associations with the phenotype.
 </details>
 
 <details>
   <summary>Which file provides a summary of the "best-fit" PRS?</summary>
-  ANSWER.
+  SBP_trial.eur.eur.summary
 </details>
 
 View this summary output file: 
@@ -283,6 +287,7 @@ cat /Volumes/Chris-1/PRS24/Data_Day4/out/SBP_trial.eur.eur.summary
 <details>
   <summary>How many SNPs are included in the "best-fit" PRS? Why is the number of SNPs important in PRS calcualtion?</summary>
   Number of SNPs = xxx.
+  
   The number of SNPs is crucial in PRS calculations because it directly influences the accuracy and predictive power of the score. Including a larger number of informative SNPs generally increases the likelihood of capturing significant genetic effects associated with the trait. However, it's important to balance quantity with quality; too many SNPs might include noise, which can dilute the true genetic signal and decrease the overall effectiveness of the PRS in distinguishing phenotypic outcomes.
 </details>
 
