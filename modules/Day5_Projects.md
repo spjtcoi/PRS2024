@@ -12,6 +12,5 @@ You have just completed the Wellcome Connecting Science PRS course and are now a
 
 **Figure 1** Predictivity of various PRSs compared to PRSmix (Adopted Buu et al. 2024)
 
-* Based on the following traits: height, total cholesterol, and diabetes, you will be divided into three groups (make it 5 traits, 5 groups, Model Answer to TAs) (what will be evaluated e.g. 2 pages write up, presentation)
 
   
